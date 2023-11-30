@@ -8,5 +8,9 @@ spec:
   containers:
   - name: sonarqube
     image: sonarqube
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
     ports:
       - containerPort: 9000
