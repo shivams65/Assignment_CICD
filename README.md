@@ -2,7 +2,7 @@
 
 Build the AKS Cluster in Azure Portal
 
-Used Deployment.YAML and Service.YAML for Deployment and Exposing the Sonarqube.
+Used Pod.YAML and Service.YAML for creation and Exposing the Sonarqube.
 
 Used Docker Image for Building the application.
 
